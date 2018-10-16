@@ -15,7 +15,7 @@ This component is meant to smoothen the oscillation to the best of my understand
 This component increases as the error does so, hence it's compensating the oscillations according to the growth of deviation from the trajectory. In this particular case it has the most significant weight
 
 
-##Describe how the final hyperparameters were chosen.
+## Describe how the final hyperparameters were chosen.
 
 I tuned parameters manually as described below:
 
