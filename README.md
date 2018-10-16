@@ -3,15 +3,15 @@ Self-Driving Car Engineer Nanodegree Program
 
 
 
-##Describe the effect each of the P, I, D components had in your implementation.
+## Describe the effect each of the P, I, D components had in your implementation.
 
-###P — Proportional
+### P — Proportional
 This component contributes to the steering angle in a way that the car steers opposite direction of the error i.e. towards to the trajectory. This is absolutely required component in this particular exercise, though as I describe below it should be compensated by other components
 
-###I — Integral
+### I — Integral
 This component is meant to smoothen the oscillation to the best of my understanding. In this particular exercise I didn't observe benefits of it and left it as 0.0
 
-###D — Differential
+### D — Differential
 This component increases as the error does so, hence it's compensating the oscillations according to the growth of deviation from the trajectory. In this particular case it has the most significant weight
 
 
